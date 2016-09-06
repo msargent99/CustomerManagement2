@@ -25,6 +25,20 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+        <activity
+            android:name=".EditCustomer"
+            android:label="@string/title_activity_edit">
+        </activity>
+        <activity android:name=".MenuActivity">
+        </activity>
+        <activity android:name=".ViewActivity">
+        </activity>
+        <activity android:name=".SessionsActivity">
+        </activity>
+        <activity android:name=".BillingActivity">
+        </activity>
+        <activity android:name=".ChargeActivity">
+        </activity>
     </application>
 
 </manifest>

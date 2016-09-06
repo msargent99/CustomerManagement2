@@ -6,10 +6,31 @@
     <string name="prompt_password">Password</string>
     <string name="action_sign_in">Login</string>
     <string name="login_complete">Login successful</string>
-    <string name="login_failed">Login failed</string>
+    <string name="error_invalid_password">Login failed</string>
+    <string name="error_invalid_email">Invalid username</string>
     <string name="username">jdoe</string>
     <string name="password">welcome1</string>
     <string name="error_field_required">This field is required</string>
     <string name="permission_rationale">"Contacts permissions are needed for providing email
         completions.</string>
+
+    <string name="fragment_user">User logged in: @string/username</string>
+
+    <string name="customer_selected"></string>
+    <string name="add_btn">Add Customers</string>
+    <string name="view_btn">View Customers</string>
+    <string name="billing_btn">Customer Billing</string>
+    <string name="finalizing_btn">Finalizing Sessions</string>
+
+    <string name="photo_btn">Take Photo</string>
+    <string name="submit_btn">Submit</string>
+
+    <string name="new_btn">New Session</string>
+    <string name="completed_btn">Session Completed</string>
+
+    <string name="charge_btn">Charge</string>
+    <string name="print_btn">Print Receipts</string>
+    <string name="email_btn">Email Receipts</string>
+
+    <string name="title_activity_edit">Edit Customer</string>
 </resources>
