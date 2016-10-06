@@ -35,12 +35,14 @@ public class ViewActivity extends AppCompatActivity {
         EditText e = (EditText) findViewById (R.id.names);
         e.setText(names.toString());
         /*/
-        private void updatePhotoView(){
+       // private void updatePhotoView(){
+        /*/
         if(mPhotoFile == null || !mPhotoFile.exists()){
-            mPhotoView.setImageDrawable(null);
+            //mPhotoView.setImageDrawable(null);
         } else {
-            Bitmap bitmap = PictureUtils.getScaledBitmap(mPhotoFile.getPath(), getActivity());
-            mPhotoView.setImageBitmap(bitmap);
+            //Bitmap bitmap = PictureUtils.getScaledBitmap(mPhotoFile.getPath(), getActivity());
+            //mPhotoView.setImageBitmap(bitmap);
     }
+    /*/
     }
 }

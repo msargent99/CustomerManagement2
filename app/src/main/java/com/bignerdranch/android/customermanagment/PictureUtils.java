@@ -17,6 +17,7 @@ public class PictureUtils {
         float srcHeight = options.outHeight;
 
         int inSampleSize = 1;
+        /*/
         if (srcHeight > destHeight || srcWidth > destWidth) {
             if(srcWidth > srcHeight){
                 inSampleSize = Math.round(srcHeight / destHeight);
@@ -24,7 +25,7 @@ public class PictureUtils {
                 inSampleSize = Math.round(srcWidth / destWidth);
             }
         }
-
+        /*/
         options = new BitmapFactory.Options();
         options.inSampleSize = inSampleSize;
 

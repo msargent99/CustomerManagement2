@@ -344,6 +344,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
             showProgress(false);
 
             if (success) {
+                setContentView(R.layout.activity_menu);
                 finish();
             } else {
                 mPasswordView.setError(getString(R.string.error_invalid_password));
