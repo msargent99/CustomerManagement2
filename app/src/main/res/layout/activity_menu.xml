@@ -61,4 +61,16 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"/>
 
+    <Button
+        style="?android:textAppearanceLarge"
+        android:id="@+id/logoff_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/logoff_btn"
+        android:textStyle="bold"
+        android:layout_marginBottom="47dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"/>
+
 </RelativeLayout>

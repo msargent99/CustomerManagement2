@@ -44,7 +44,13 @@ public class EditCustomer extends AppCompatActivity {
             fm.beginTransaction ().add(R.id.fragment_container, fragment).commit();
         }
 
-        Button  mButtonSubmitCustomer = (Button) findViewById(R.id.button_submit_customer);
+        Button  mButtonSubmit = (Button) findViewById(R.id.button_submit_customer);
+        mButtonSubmit.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                mPhotoFile = getPhotoFile();
+            }
+        });
         /*/
         mButtonSubmitCustomer.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -57,11 +63,10 @@ public class EditCustomer extends AppCompatActivity {
         final Intent captureImage = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
 
         Button  mButtonPhoto = (Button) findViewById(R.id.button_photo);
-        mButtonSubmitCustomer.setOnClickListener(new View.OnClickListener() {
+        mButtonPhoto.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 startActivityForResult(captureImage, 2);
-                mPhotoFile = getPhotoFile();
             }
         });
     }

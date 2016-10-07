@@ -31,7 +31,13 @@
     <string name="charge_btn">Charge</string>
     <string name="print_btn">Print Receipts</string>
     <string name="email_btn">Email Receipts</string>
+    <string name="logoff_btn">Log off</string>
 
+    <string name="title_activity_menu">Menu</string>
+    <string name="title_activity_view">View Customer</string>
+    <string name="title_activity_sessions">Sessions</string>
     <string name="title_activity_edit">Edit Customer</string>
+    <string name="title_activity_billing">Billing</string>
+    <string name="title_activity_charge">Charge</string>
     <string name="names"></string>
 </resources>
